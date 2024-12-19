@@ -65,5 +65,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'boejangbeansfp'
-          slot-name: ''
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F9F0C4B3BFCB40948B76A1D1DCCF2FC3 }}
