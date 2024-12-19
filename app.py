@@ -20,9 +20,9 @@ login_manager.init_app(app)
 login_manager.login_view = "login"
 
 db_config = {
-    user="kelompok9", 
+    user="boejangbeansweb", 
     password="Admin123", 
-    host="webfpkelompok9.mysql.database.azure.com", 
+    host="boejangbeansfp.mysql.database.azure.com", 
     port=3306, 
     database="boejangbeans"
 }
